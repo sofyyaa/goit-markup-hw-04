@@ -1,0 +1,612 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+    color: #434455
+    
+}
+:root {
+    --navyblue:#2e2f42;
+    --iris:#4d5ae5;
+    --slate:#434455;
+    --white:#fff;
+    --ocean:#404bbf;
+    --cloud:#f4f4fd;
+}
+
+img {
+    display: block;
+}
+
+
+.link {
+    text-decoration: none;
+}
+
+
+.header-item {
+    border-bottom: 1px solid #e7e9fc;
+    
+
+}
+
+.nav-item {
+    display: flex;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.header-logo-link {
+    color: #4d5ae5;
+    font-family: Raleway,sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-right: 76px
+}
+
+.logo-tittle {
+ color: #2e2f42;
+}
+
+
+.header-menu-link {
+        color: var(--navyblue, #2E2F42);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        display: flex;
+        gap: 40px
+        
+}
+
+
+
+
+
+
+.header-menu-link:hover {
+   color: #404bbf;
+}
+
+.header-menu-link:focus{
+    color: #404bbf;
+}
+
+.contacts {
+    font-style: normal;
+}
+
+.contacts-item {
+    display: flex;
+    gap: 40px;
+}
+
+.span {
+    color: #2e2f42;
+}
+
+
+
+.header-menu-item {
+        color:#434455;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        
+}
+
+
+
+
+.header-menu-menu:hover {
+    color: #404bbf;
+}
+
+.header-menu-menu:focus {
+    color: #404bbf;
+}
+
+
+.header-menu-menu {
+    color: #434455;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
+.header-menu {
+    display: flex;
+    gap: 40px;
+
+}
+
+.header-menu-item:hover {
+    color: #404bbf;
+}
+
+.header-menu-item:focus {
+    color: #404bbf;
+}
+
+.header-menu-tittle{
+    color: #434455;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    display: flex;
+    gap: 40px
+   
+}
+
+.header-menu-tittle:hover {
+    color: #404bbf;
+}
+
+.header-menu-tittle:focus {
+    color: #404bbf;
+}
+
+.hero {
+    padding: 188px 0;
+    background-color: #2E2F42;
+}
+
+
+.hero-hero {
+    background-color: #2E2F42;
+    
+
+
+}
+
+.hero-title {
+    color: white;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    max-width: 496px;
+    margin-bottom: 48px;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.hero-btn {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin: 0 auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
+    
+}
+
+.hero-btn:hover {
+background-color: #404BBF
+}
+
+.hero-btn:focus {
+    background-color: #404BBF
+}
+
+
+
+.images-list {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+
+.images {
+    padding-bottom: 120px;
+
+}
+
+
+.images-item {
+    display: flex;
+    gap: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+.img-list-list {
+    width: calc((100% - 48px) / 3);
+}
+
+
+
+.team-list {
+    background-color: #F4F4FD;
+    padding: 120px 0;
+
+}
+
+.team-tittle {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+.team {
+    display: flex;
+    gap: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+.team-names {
+    padding: 32px 0
+}
+
+.team-list-tittle {
+    background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.tittle-tittle {
+        color: var(--navyblue, #2E2F42);
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        margin-bottom: 8px;
+
+
+}
+
+.tittle-tittle-list {
+    color: var(--slate, #434455);
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+
+}
+
+.pay-list {
+    color: var(--navyblue, #2E2F42);
+       
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        margin-bottom: 8px;
+}
+
+
+.pay-tittle {
+    color: var(--slate, #434455);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+}
+
+
+.advantages {
+    padding: 120px 0
+}
+
+.advanges-subtitle {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.advantages-item-text {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.advantages-list {
+    display: flex;
+    gap: 24px;
+    padding: 0;
+    margin: 0;
+}
+    
+
+
+.advantages-item {
+    width: calc((100% - 3 * 24px) / 4)
+}
+
+
+
+
+.footer-list {
+    background-color: #2e2f42;
+    padding: 100px 0
+
+}
+
+.footer-logo {
+    color: var(--iris, #4D5AE5);
+        font-family: "Raleway", sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        display: inline-block;
+        margin-bottom: 16px;
+}
+
+.btn-tittle {
+        color: var(--iris, #4D5AE5);
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+       
+        
+}
+
+.portfolio-list {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+.btn-tittle-tittle {
+        color: #4d5ae5;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+        padding: 12px 24px;
+        border: 1px solid #e7e9fc;
+        background-color: #F4F4FD;
+        border-radius: 4px;
+        
+}
+
+.btn-tittle-tittle:hover {
+    color: #FFFFFF;
+    background-color: #404BBF;
+    border: 1px solid transparent;
+}
+
+.btn-tittle-tittle:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+    border: 1px solid transparent;
+}
+
+.payment {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    padding: 0;
+    margin: 0;
+   
+}
+
+.payment-link  {
+    width: calc((100% - 48px) / 3);
+
+}
+
+
+
+.payment-item {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
+
+.button-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+
+}
+
+.list-list {
+       
+      
+        padding-bottom: 0px;
+        flex-shrink: 0;
+        border: 1px solid var(--cornflower, #E7E9FC);
+        background: var(--white, #FFF);
+        
+}  
+
+.list {
+    list-style: none;
+}
+
+ .span-tittle {
+   color: #f4f4fd;
+ } 
+
+ .footer-title-list {
+    color: var(--cloud, #F4F4FD);
+
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+ }  
+
+
+
+ .header-menu-link {
+     color: var(--navyblue, #2E2F42);
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     padding: 24px 0
+
+ }
+
+ .portfolio-list {
+     padding-top: 96px;
+     padding-bottom: 120px;
+ }
+
+
+ .list {
+     list-style: none;
+ }
+
+
+ 
+
+ .header-menu-link {
+     color: var(--navyblue, #2E2F42);
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+
+ }
+
+
+ .header-menu-tittle {
+     color: #434455;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+     padding: 24px;
+ }
+
+ .header-menu-tittle:hover {
+     color: #404bbf;
+ }
+
+ .header-menu-tittle:focus {
+     color: #404bbf;
+ }
+
+
+
+
+
+ .header-menu-link:hover {
+     color: #404bbf;
+ }
+
+ .header-menu-link:focus {
+     color: #404bbf;
+ }
+
+ 
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+
+
+
+
+
+
+ 
+ 
