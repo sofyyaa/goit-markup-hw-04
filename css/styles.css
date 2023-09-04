@@ -683,4 +683,20 @@ gap: 24px;
     fill: #f4f4fd;
 }
  
- 
+.fifth-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.customers-item {
+    color: #2e2f42;
+    font-size: 36px;
+    line-height: 1.11;
+    margin-bottom: 72px;
+}
+
+.customers-list {
+    display: flex;
+    gap: 24px;
+    
+}
