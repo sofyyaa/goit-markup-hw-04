@@ -728,3 +728,84 @@ gap: 24px;
   color: #404bbf
 }
 
+.footer {
+    background-color: var(--navyblue);
+    padding: 100px 0;
+    display: block;
+}
+
+.container-footer {
+    display: flex;
+    align-items: baseline;
+}
+
+.webstudio-footer {
+    margin-right: 120px;
+    margin-left: 0;
+}
+
+.footer-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--cloud);
+    padding-top: 16px;
+    width: 264px;
+}
+
+footer .header-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.social-media {
+    display: block;
+    margin-left: 120px;
+}
+
+.social-media-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--white);
+    margin-bottom: 16px;
+}
+
+.social-media-list {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-top: 16px;
+}
+
+.social-madia-item {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    fill: var(--iris);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-media-link-footer {
+    background-color: var(--iris);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-media-link-footer:hover,
+.social-media-link-footer:focus {
+    background-color: var(--green);
+}
+
+.ellipse-footer {
+    fill: var(--cloud);
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
