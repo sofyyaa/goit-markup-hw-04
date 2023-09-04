@@ -766,6 +766,7 @@ gap: 24px;
     background-color: var(--navyblue);
     padding: 100px 0;
     display: block;
+    margin-right: 120px;
 }
 
 .container-footer {
