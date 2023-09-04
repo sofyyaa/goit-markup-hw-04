@@ -73,6 +73,7 @@ img {
     text-transform: uppercase;
     margin-right: 76px;
     
+    
 }
 
 .logo-tittle {
@@ -88,7 +89,8 @@ img {
         line-height: 1.5;
         letter-spacing: 0.02em;
         display: flex;
-        gap: 40px
+        gap: 40px;
+        position: relative;
         
 }
 
@@ -127,7 +129,7 @@ img {
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        position: relative;
+       
         
 }
 
